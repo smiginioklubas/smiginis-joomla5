@@ -28,14 +28,6 @@
 
 </administration>
 
-            <folder>services</folder>
-            <folder>src</folder>
-            <folder>tmpl</folder>
-
-        </files>
-
-    </administration>
-
 <site>
 
     <files folder="site">
