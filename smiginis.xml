@@ -11,7 +11,21 @@
     <namespace path="administrator/src">
         Smiginis\Component\Smiginis
     </namespace>
+<install>
+    <sql>
+        <file driver="mysql" charset="utf8">
+            administrator/sql/install/mysql/install.sql
+        </file>
+    </sql>
+</install>
 
+<uninstall>
+    <sql>
+        <file driver="mysql" charset="utf8">
+            administrator/sql/uninstall/mysql/uninstall.sql
+        </file>
+    </sql>
+</uninstall>
    <administration>
 
     <menu>Smiginis</menu>
