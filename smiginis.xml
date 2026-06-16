@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+
+    <name>com_smiginis</name>
+
+    <author>Smiginio klubas</author>
+    <creationDate>2026-06-16</creationDate>
+    <version>0.1.0</version>
+    <description>Smiginio turnyrų valdymo komponentas Joomla 5</description>
+
+</extension>
