@@ -6,6 +6,48 @@
     <author>Smiginio klubas</author>
     <creationDate>2026-06-16</creationDate>
     <version>0.1.0</version>
-    <description>Smiginio turnyrų valdymo komponentas Joomla 5</description>
+    <description>Smiginio turnyrų valdymo komponentas</description>
+
+    <namespace path="administrator/src">
+        Smiginis\Component\Smiginis
+    </namespace>
+
+   <administration>
+
+    <menu>Smiginis</menu>
+
+    <files folder="administrator">
+
+        <filename>smiginis.php</filename>
+
+        <folder>services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+
+    </files>
+
+</administration>
+
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+
+        </files>
+
+    </administration>
+
+<site>
+
+    <files folder="site">
+
+        <filename>smiginis.php</filename>
+
+        <folder>services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+
+    </files>
+
+</site>
 
 </extension>
