@@ -34,9 +34,9 @@
 
         <filename>smiginis.php</filename>
 
-        <folder>services</folder>
         <folder>src</folder>
         <folder>tmpl</folder>
+         <folder>sql</folder>
 
     </files>
 
@@ -48,7 +48,6 @@
 
         <filename>smiginis.php</filename>
 
-        <folder>services</folder>
         <folder>src</folder>
         <folder>tmpl</folder>
 
