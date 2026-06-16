@@ -2,7 +2,7 @@
 
 namespace Smiginis\Component\Smiginis\Administrator\Table;
 
-defined('_JEXEC') or die;
+\defined('_JEXEC') or die;
 
 use Joomla\CMS\Table\Table;
 use Joomla\Database\DatabaseDriver;
